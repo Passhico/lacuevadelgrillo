@@ -1,0 +1,507 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200710 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2534                
+POS_VISITOR 10536               
+POS_DAY 15140               
+POS_DOMAIN 3114                
+POS_LOGIN 3425                
+POS_ROBOT 3580                
+POS_WORMS 3974                
+POS_EMAILSENDER 4105                
+POS_EMAILRECEIVER 4248                
+POS_SESSION 15784               
+POS_SIDER 15974               
+POS_FILETYPES 4383                
+POS_OS 4450                
+POS_BROWSER 4581                
+POS_SCREENSIZE 4837                
+POS_UNKNOWNREFERER 4911                
+POS_UNKNOWNREFERERBROWSER 5065                
+POS_ORIGIN 5214                
+POS_SEREFERRALS 5350                
+POS_PAGEREFS 5534                
+POS_SEARCHWORDS 6328                
+POS_KEYWORDS 6703                
+POS_MISC 2197                
+POS_ERRORS 6874                
+POS_CLUSTER 3281                
+POS_SIDER_404 6967                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20071101171348 1 0 42121717525
+FirstTime 20071001093042
+LastTime 20071031174623
+LastUpdate 20071102004919 1 0 0 0 0
+TotalVisits 90                  
+TotalUnique 86                  
+MonthHostsKnown 68                  
+MonthHostsUnknown 18                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 25 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 615 3 5 205
+1 1 1 205 2 4 0
+2 1 1 205 8 13 205
+3 1 1 205 7 11 205
+4 0 0 0 11 15 205
+5 0 0 0 8 16 410
+6 1 1 205 4 12 205
+7 3 3 205 3 7 205
+8 2 2 410 10 82 0
+9 13 13 1435 9 10 205
+10 11 11 820 11 16 205
+11 9 9 1845 3 7 0
+12 9 9 1230 8 30 205
+13 6 6 1025 7 12 410
+14 5 5 615 12 14 0
+15 3 3 615 3 4 0
+16 4 4 615 0 1 0
+17 11 11 2050 0 1 0
+18 6 6 820 4 6 0
+19 10 10 1845 1 1 0
+20 7 7 1025 4 6 0
+21 8 8 820 12 36 0
+22 7 7 1025 1 4 0
+23 6 6 820 13 15 820
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+com 47 47 5945
+net 42 42 7175
+ip 29 29 3485
+es 7 7 1230
+ca 1 1 205
+no 1 1 205
+fr 1 1 205
+au 1 1 205
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+jeeves 6 1230 20071027002314 0
+slurp 6 615 20071026082900 0
+googlebot 4 410 20071019024956 0
+msnbot 3 615 20071030135518 0
+psbot 1 205 20071009042813 0
+speedy 1 205 20071024055732 0
+msnbot\-media 1 205 20071003054853 0
+php\sversion\stracker 1 0 20071013060306 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 129 18655 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winxp 108
+winlong 5
+winnt 1
+win2000 6
+linuxubuntu 2
+win98 2
+linuxfedora 1
+linux 1
+Unknown 3
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 15
+msie6.0 78
+firefox1.0.7 1
+msie5.01 1
+firefox2.0.0.8 10
+firefox1.0 1
+msie7.0 18
+firefox1.0.2 1
+msie5.0 1
+firefox2.0.0.2 1
+msie5.5 2
+firefox2.0.0.6 2
+firefox1.5 1
+Unknown 3
+firefox2.0.0.5 1
+firefox2.0.0.7 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+- 20071003161007
+Harry 20071024121245
+panscient.com 20071027090343
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+- 20071003161007
+Harry 20071024121245
+panscient.com 20071027090343
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 33 33
+From1 0 0
+From2 28 28
+From3 68 68
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 26 26
+google_image 1 1
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 12
+http://www.ctv.es/USERS/agd/sierraespuna/pag/servicios/casas/casas_ala.htm 28 28
+http://www.sitidi.net 10 10
+http://www.noratur.com/tierradentro/enlaces.php 7 7
+http://www.ctv.es/USERS/agd/sierraespuna/pag/enlaces/enlaces.htm 6 6
+http://www.rurapolis.com/index.php 5 5
+http://www.sierraespuna.com/comun.asp 3 3
+http://www.meryleon.es/Directorio/enlaces.asp 3 3
+http://www.casas-rurales-turismo-rural.com/visualweb/sitios/datos_Sitios.asp 2 2
+http://www.allrural.com/sites.php 1 1
+http://www.gennio.com/tags/la+cueva+del+grillo/ultimos 1 1
+http://www.balmontes.com 1 1
+http://www.murciaturistica.es/PORTAL/ptm.alojamientos_turisticos.detalle 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 10
+cueva+del+grillo 12
+casa+rural+cueva+del+grillo 4
+la+cueva+del+grillo 2
+cueva+el+grillo 2
+cueva+el+grillo+murcia 2
+cueva+de+grillo 1
+lacuevadelgrillo 1
+www.lacuevadelgrillo.com 1
+casa+rural+cueva 1
+casa+cueva+del+grillo 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 11
+cueva 25
+grillo 24
+del 19
+casa 6
+rural 5
+el 4
+murcia 2
+la 2
+lacuevadelgrillo 1
+www.lacuevadelgrillo.com 1
+de 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+500 8 0
+404 297 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 89
+/fotos/dcp_0017.jpg 2 -
+/robots.txt 70 -
+/fotos/dcp_0006.jpg 1 -
+/fotos/dcp_0026_th.jpg 1 -
+/images/botton.gif 2 http://64.233.183.104/search
+/fotos/dcp_0016_th.jpg 3 http://64.233.183.104/search
+/fotos/dcp_0015_th.jpg 3 http://64.233.183.104/search
+/fotos/dcp_0040.jpg 1 -
+/fotos/dcp_0015.jpg 2 -
+/fotos/dcp_0025_th.jpg 1 -
+/fotos/dcp_0031_th.jpg 1 -
+/fotos/dcp_0012_th.jpg 3 http://64.233.183.104/search
+/images/seccion_excursiones.gif 6 http://64.233.183.104/search
+/fotos/dcp_0041.jpg 2 -
+/galeria2.htm 8 -
+/images/fondo_top.gif 2 http://64.233.183.104/search
+/fotos/dcp_0030.jpg 1 -
+/images/seccion_tarifas.gif 5 http://64.233.183.104/search
+/fotos/dcp_0012.jpg 2 -
+/images/seccion_tarifas2.gif 4 http://64.233.183.104/search
+/fotos/dcp_0024.jpg 1 -
+/fotos/dcp_0033.jpg 1 -
+/fotos/dcp_0011.jpg 2 -
+/fotos/dcp_0007.jpg 2 -
+/galeria3.htm 7 http://images.google.es/imgres
+/fotos/dcp_0037_th.jpg 1 -
+/fotos/dcp_0023_th.jpg 1 -
+/fotos/dcp_0008_th.jpg 3 http://64.233.183.104/search
+/fotos/dcp_0013_th.jpg 3 http://64.233.183.104/search
+/fotos/dcp_0021_th.jpg 1 -
+/fotos/dcp_0038_th.jpg 1 -
+/fotos/dcp_0011_th.jpg 3 http://64.233.183.104/search
+/fotos/dcp_0041_th.jpg 3 http://64.233.183.104/search
+/images/seccion_galeria.gif 5 http://64.233.183.104/search
+/fotos/dcp_0016.jpg 2 -
+/images/fotos.jpg 7 http://images.google.es/imgres
+/fotos/dcp_0008.jpg 2 -
+/images/seccion_servicios2.gif 4 http://64.233.183.104/search
+/fotos/dcp_0010.jpg 2 -
+/fotos/dcp_0039_th.jpg 1 -
+/fotos/dcp_0013.jpg 2 -
+/images/seccion_ubicacion2.gif 5 http://64.233.183.104/search
+/fotos/dcp_0030_th.jpg 1 -
+/fotos/dcp_0017_th.jpg 3 http://64.233.183.104/search
+/fotos/dcp_0027.jpg 1 -
+/images/seccion_servicios.gif 4 http://64.233.183.104/search
+/fotos/dcp_0021.jpg 1 -
+/fotos/dcp_0009.jpg 2 -
+/images/seccion_galeria2.gif 7 http://64.233.183.104/search
+/fotos/dcp_0034.jpg 1 -
+/fotos/dcp_0023.jpg 1 -
+/images/fondo.gif 2 http://64.233.183.104/search
+/images/seccion_contacto2.gif 5 http://64.233.183.104/search
+/fotos/dcp_0025.jpg 1 -
+/contacto.htm 8 -
+/images/seccion_contacto.gif 6 http://64.233.183.104/search
+/fotos/dcp_0035_th.jpg 1 -
+/images/seccion_excursiones2.gif 6 http://64.233.183.104/search
+/fotos/dcp_0038.jpg 1 -
+/images/seccion_ubicacion.gif 5 http://64.233.183.104/search
+/fotos/dcp_0026.jpg 1 -
+/fotos/dcp_0020_th.jpg 1 -
+/fotos/dcp_0034_th.jpg 1 -
+/fotos/dcp_0031.jpg 1 -
+/fotos/dcp_0036_th.jpg 1 -
+/fotos/dcp_0007_th.jpg 3 http://64.233.183.104/search
+/fotos/dcp_0010_th.jpg 2 http://64.233.183.104/search
+/fotos/dcp_0040_th.jpg 1 -
+/fotos/dcp_0022_th.jpg 1 -
+/images/texto_logo.gif 2 http://64.233.183.104/search
+/images/redondel_logo.gif 2 http://64.233.183.104/search
+/plantilla_construccion.htm 9 -
+/fotos/dcp_0022.jpg 1 -
+/fotos/dcp_0024_th.jpg 1 -
+/images/top_right.gif 2 http://64.233.183.104/search
+/fotos/dcp_0028.jpg 1 -
+/images/grillo_doblao.gif 4 http://64.233.183.104/search
+/fotos/dcp_0039.jpg 1 -
+/fotos/dcp_0018.jpg 2 -
+/fotos/dcp_0020.jpg 1 -
+/galeria.htm 11 -
+/images/logo.gif 2 http://64.233.183.104/search
+/fotos/dcp_0028_th.jpg 1 -
+/fotos/dcp_0035.jpg 1 -
+/fotos/dcp_0009_th.jpg 3 http://64.233.183.104/search
+/fotos/dcp_0027_th.jpg 1 -
+/fotos/dcp_0018_th.jpg 3 http://64.233.183.104/search
+/fotos/dcp_0036.jpg 1 -
+/fotos/dcp_0006_th.jpg 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 86
+84.232.73.146 7 7 205 20071026103233
+84.121.162.141.dyn.user.ono.com 6 6 615 20071009000158
+124.red-80-33-79.staticip.rima-tde.net 5 5 1025 20071016171708
+64.79.219.54 5 5 0 20071016092925
+www.example.com 3 3 0 20071002210451
+84.120.144.85.dyn.user.ono.com 3 3 205 20071002123815
+84.120.80.49.dyn.user.ono.com 3 3 205 20071017230254
+static-226-59-224-77.ipcom.comunitel.net 2 2 205 20071028205106
+sczxserv.com 2 2 0 20071003073901
+84.120.45.58.dyn.user.ono.com 2 2 410 20071019183318
+72.red-83-45-180.dynamicip.rima-tde.net 1 1 205 20071002132637
+210.red-83-44-240.dynamicip.rima-tde.net 1 1 205 20071001215540
+panscient_data_services.demarc.cogentco.com 1 1 205 20071027090343
+84.120.155.57.dyn.user.ono.com 1 1 205 20071010223920
+82.99.30.38 1 1 205 20071008090408
+89.129.115.6 1 1 205 20071011155839
+cm-84.212.138.171.chello.no 1 1 205 20071018202341
+211.red-80-24-101.staticip.rima-tde.net 2 2 205 20071003185219
+84.79.14.235 1 1 205 20071015144655
+241.194.223.87.dynamic.jazztel.es 1 1 205 20071009220235
+25.red-213-96-202.staticip.rima-tde.net 1 1 205 20071014195406
+84.232.9.113 1 1 205 20071018111929
+179.red-81-34-83.dynamicip.rima-tde.net 1 1 205 20071001204120
+180.red-81-41-212.staticip.rima-tde.net 2 2 205 20071008224830
+93.red-83-57-172.dynamicip.rima-tde.net 1 1 205 20071002010727
+199.36.221.87.dynamic.jazztel.es 2 2 410 20071020182011
+64.red-88-23-230.staticip.rima-tde.net 1 1 205 20071026190627
+84.121.106.107.dyn.user.ono.com 1 1 205 20071015114438
+98.red-80-58-205.staticip.rima-tde.net 1 1 205 20071001220253
+lpri.gva.es 1 1 205 20071001093042
+84.124.144.249.dyn.user.ono.com 1 1 205 20071009085058
+52.red-83-63-189.staticip.rima-tde.net 1 1 205 20071001175900
+244.red-88-14-116.dynamicip.rima-tde.net 1 1 205 20071025232219
+84.76.157.187 2 2 205 20071003201233
+84.red-88-9-225.dynamicip.rima-tde.net 1 1 205 20071022063729
+200.red-80-28-224.adsl.static.ccgg.telefonica.net 1 1 205 20071012113111
+cm148098.red.mundo-r.com 1 1 205 20071019175253
+147.84.200.167 1 1 205 20071025092452
+203-6-205-34.reed-elsevier.com.au 1 1 205 20071024121245
+84.121.171.222.dyn.user.ono.com 1 1 205 20071024170517
+92.f5.344a.static.theplanet.com 1 1 205 20071014151027
+ip-193-33-2-101.mde.es 1 1 205 20071011114614
+84.126.157.42.dyn.user.ono.com 1 1 205 20071004210718
+166.red-81-34-59.dynamicip.rima-tde.net 1 1 205 20071001221436
+228.red-83-52-47.dynamicip.rima-tde.net 1 1 205 20071003115325
+55.red-83-35-220.dynamicip.rima-tde.net 1 1 205 20071002030637
+226.red-81-39-35.dynamicip.rima-tde.net 1 1 205 20071019205316
+blk-215-86-71.eastlink.ca 1 1 205 20071008115234
+84.121.54.164.dyn.user.ono.com 2 2 205 20071022092527
+80.31.174.157 1 1 205 20071015193352
+agrenoble-156-1-75-178.w90-41.abo.wanadoo.fr 1 1 205 20071007153817
+38.100.41.107 1 1 205 20071013073200
+55.red-88-5-155.staticip.rima-tde.net 1 1 205 20071003135250
+104.red-83-45-223.dynamicip.rima-tde.net 1 1 205 20071009193242
+235.red-88-14-52.dynamicip.rima-tde.net 1 1 205 20071001193948
+84.121.111.227.dyn.user.ono.com 1 1 205 20071002121805
+84.121.171.143.dyn.user.ono.com 2 2 205 20071001220115
+84.121.169.211.dyn.user.ono.com 2 2 205 20071011133443
+scen16.elpozo.com 1 1 205 20071003120725
+69.36.158.65 1 1 205 20071007095543
+138.red-81-37-108.dynamicip.rima-tde.net 1 1 205 20071021163412
+192.red-88-14-59.dynamicip.rima-tde.net 1 1 205 20071007230324
+80.31.88.123 1 1 205 20071002115503
+ip146.marmedsa.com 1 1 205 20071030092123
+84.121.36.4.dyn.user.ono.com 1 1 205 20071031174623
+49.red-81-32-74.dynamicip.rima-tde.net 2 2 205 20071001125338
+97.red-80-24-102.staticip.rima-tde.net 1 1 205 20071022113803
+170.252.72.61 1 1 205 20071009122400
+55.red-80-58-205.staticip.rima-tde.net 1 1 205 20071021231628
+114.red-80-33-77.staticip.rima-tde.net 2 2 205 20071001182956
+89.129.114.42 1 1 205 20071018114058
+50.red-81-39-92.dynamicip.rima-tde.net 2 2 205 20071003105255
+84.120.2.226.dyn.user.ono.com 2 2 205 20071003161126
+84.120.168.198.dyn.user.ono.com 1 1 205 20071017003845
+65.red-83-43-251.dynamicip.rima-tde.net 2 2 205 20071002171356
+82.99.30.19 1 1 205 20071004020306
+232.pool85-60-64.dynamic.orange.es 2 2 205 20071012213230
+128.241.20.166 1 1 205 20071010080551
+84.121.81.187.dyn.user.ono.com 2 2 205 20071029194451
+84.121.37.13.dyn.user.ono.com 1 1 205 20071023102851
+128.241.20.165 1 1 205 20071030192931
+startaid.com 1 1 205 20071003161007
+173.red-213-4-23.staticip.rima-tde.net 1 1 205 20071005133742
+84.124.161.161.dyn.user.ono.com 1 1 205 20071008195015
+84.121.39.32.dyn.user.ono.com 2 2 205 20071008141050
+84.232.65.27 1 1 205 20071008003942
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20071001 14 14 2255 11
+20071002 13 13 1435 8
+20071003 14 14 1640 9
+20071004 2 2 410 2
+20071005 1 1 205 1
+20071007 3 3 615 3
+20071008 10 10 1435 7
+20071009 7 7 1025 5
+20071010 2 2 410 2
+20071011 4 4 615 3
+20071012 3 3 410 2
+20071013 1 1 205 1
+20071014 2 2 410 2
+20071015 3 3 615 3
+20071016 11 11 1230 3
+20071017 4 4 410 2
+20071018 3 3 615 3
+20071019 3 3 615 3
+20071020 2 2 410 2
+20071021 2 2 410 2
+20071022 4 4 615 3
+20071023 1 1 205 1
+20071024 2 2 410 2
+20071025 2 2 410 2
+20071026 8 8 410 2
+20071027 1 1 205 1
+20071028 2 2 205 1
+20071029 2 2 205 1
+20071030 2 2 410 2
+20071031 1 1 205 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 4
+0s-30s 75
+2mn-5mn 5
+30s-2mn 4
+15mn-30mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 129 18655 90 90
+END_SIDER

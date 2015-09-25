@@ -1,0 +1,455 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200803 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2534                
+POS_VISITOR 7991                
+POS_DAY 13262               
+POS_DOMAIN 3301                
+POS_LOGIN 3718                
+POS_ROBOT 3873                
+POS_WORMS 4511                
+POS_EMAILSENDER 4642                
+POS_EMAILRECEIVER 4785                
+POS_SESSION 13974               
+POS_SIDER 14175               
+POS_FILETYPES 4920                
+POS_OS 5051                
+POS_BROWSER 5185                
+POS_SCREENSIZE 5366                
+POS_UNKNOWNREFERER 5440                
+POS_UNKNOWNREFERERBROWSER 5631                
+POS_ORIGIN 5817                
+POS_SEREFERRALS 5960                
+POS_PAGEREFS 6155                
+POS_SEARCHWORDS 6927                
+POS_KEYWORDS 7356                
+POS_MISC 2197                
+POS_ERRORS 7555                
+POS_CLUSTER 3574                
+POS_SIDER_404 7651                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080401111356 1 0 63327334724
+FirstTime 20080301213851
+LastTime 20080331164352
+LastUpdate 20080402003737 1 0 0 0 0
+TotalVisits 106                 
+TotalUnique 100                 
+MonthHostsKnown 74                  
+MonthHostsUnknown 28                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 37 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 6652 7 7 16182
+1 7 7 38171 9 9 20195
+2 12 31 156245 17 17 33499
+3 1 20 97879 9 21 297390
+4 6 6 31519 2 16 161230
+5 14 125 2760539 13 27 711715
+6 6 6 31519 6 15 411037
+7 4 37 156379 12 12 23551
+8 19 106 2296364 9 9 13280
+9 32 124 815864 23 25 127887
+10 3 24 128114 13 45 10247
+11 33 355 3159131 8 8 26026
+12 15 123 1749997 8 8 18298
+13 53 685 4207101 13 15 89784
+14 14 52 258796 9 10 12685
+15 17 177 2396796 7 9 17317
+16 25 338 2724757 8 8 15070
+17 21 143 788604 6 6 13304
+18 13 179 990934 8 8 22535
+19 26 47 247538 4 4 4013
+20 23 277 1054084 6 6 12722
+21 30 295 3406957 6 6 13304
+22 18 90 1427894 9 9 16899
+23 32 108 766389 5 5 11906
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+com 120 781 10659125
+net 105 772 4923865
+ip 104 1162 8805425
+es 32 520 4454653
+de 14 50 481541
+pl 12 12 63038
+org 6 6 31519
+biz 6 6 31519
+hu 6 6 31519
+ru 6 6 31519
+cz 6 6 31519
+nl 2 23 121462
+dk 6 6 31519
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+msnbot\-media 48 1622146 20080305060543 0
+slurp 39 87193 20080330102328 0
+linkwalker 38 6652 20080312101617 0
+jeeves 23 145902 20080331170732 0
+speedy 11 59160 20080330094824 0
+surveybot 10 5870 20080331134548 5
+psbot 8 22731 20080331033356 0
+googlebot 8 0 20080330082238 0
+sbider 5 25966 20080322185449 0
+ia_archiver 4 21436 20080328082007 0
+spider 2 0 20080327152100 0
+msnbot 1 0 20080303143827 0
+php\sversion\stracker 3 0 20080310053947 0
+gigabot 1 6652 20080317161837 0
+crawl 3 69521 20080323091233 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 124 718416 0 0
+jpg 1086 24241445 0 0
+htm 301 1422195 0 0
+gif 1845 3316167 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winxp 2460
+winlong 150
+win2000 667
+winnt 5
+win98 41
+linuxfedora 6
+linux 1
+win2003 6
+Unknown 20
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+msie6.0 1951
+firefox1.0.7 6
+msie5.01 5
+firefox1.0 1
+msie7.0 1139
+firefox2.0.0.12 219
+Unknown 20
+firefox2.0.0.13 9
+firefox1.5.0.7 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+- 20080309080333
+BPImageWalker/2.0_(www.bdbrandprotect.com) 20080313205054
+panscient.com 20080324211637
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+- 20080309080333
+BPImageWalker/2.0_(www.bdbrandprotect.com) 20080313205054
+panscient.com 20080324211637
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 226 252
+From1 0 0
+From2 32 32
+From3 39 39
+From4 128 3033
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 26 26
+google_image 2 2
+excite 3 3
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+http://www.ctv.es/USERS/agd/sierraespuna/pag/servicios/casas/casas_ala.htm 11 11
+http://www.carm.es/ctyc/murciaturistica/Portal/IYA.comun_alojamientos.detalle 8 8
+http://www.sitidi.net 7 7
+http://www.carm.es/ctyc/murciaturistica/Portal/iya.alojamientos_turisticos.detalle 3 3
+http://readrun.com/item.php 3 3
+http://www.sierraespuna.com/comun.asp 2 2
+http://www.ctv.es/USERS/agd/sierraespuna/pag/enlaces/enlaces.htm 1 1
+http://www.sierraespuna.com/listaenlac.asp 1 1
+http://www.murciaturistica.es/PORTAL/ptm.alojamientos_turisticos.detalle 1 1
+http://readrun.com 1 1
+http://the69weedsmokers.mundoforo.com/memberlist.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 14
+cueva+del+grillo 7
+casa+del+grillo 6
+lacuevadelgrillo 2
+la+cueva+del+grillo 2
+cueva+de+grillo 1
+cueva+del+grillo+%26+murcia 1
+murcia+cueva 1
+casa+grillo 1
+casa+rural+en+murcia 1
+la+casa+del+grillo 1
+www.lacuevadelgrillo.com 1
+cuevas+de+grillo 1
+grillo.com 1
+la+cueva+murcia 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 14
+grillo 20
+del 17
+cueva 13
+casa 9
+murcia 4
+la 4
+lacuevadelgrillo 2
+de 2
+%26 1
+www.lacuevadelgrillo.com 1
+en 1
+cuevas 1
+grillo.com 1
+rural 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 5 26847
+404 96 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/robots.txt 94 -
+/info.txt 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 102
+195.235.246.33 34 751 6795004 20080331161154
+245.154.219.87.dynamic.jazztel.es 13 181 2420711 20080326131752
+84.124.199.196.dyn.user.ono.com 9 126 1303843 20080326131441
+84.120.249.34.dyn.user.ono.com 8 111 2059300 20080302150704
+84.126.210.252.dyn.user.ono.com 8 119 2729020 20080327054815
+34.red-80-58-205.staticip.rima-tde.net 6 6 31519 20080323234807
+84.79.68.8 6 63 141418 20080326214429
+www2.ibs-vb.de 6 6 31519 20080303231507
+219.red-83-58-24.dynamicip.rima-tde.net 6 6 31519 20080320080433
+gts2.westmaster.com 6 6 31519 20080315170617
+173.red-88-9-0.staticip.rima-tde.net 2 23 121462 20080318085507
+84.124.163.254.dyn.user.ono.com 2 23 121462 20080331164352
+88.148.58.43 2 24 121514 20080329184139
+77.210.152.87 4 130 150618 20080303132005
+sczxserv.com 3 3 0 20080317114901
+82.99.30.23 1 1 6070 20080310225834
+82.red-83-63-189.staticip.rima-tde.net 1 9 29383 20080326154153
+184.red-80-24-98.staticip.rima-tde.net 3 41 357412 20080304095506
+72.14.164.180 0 13 80165 
+1.red-81-34-84.dynamicip.rima-tde.net 3 24 125475 20080310224833
+pcd443077.netvigator.com 6 6 31519 20080329133212
+22.red-83-34-121.dynamicip.rima-tde.net 5 64 578142 20080329205049
+104.red-83-55-157.dynamicip.rima-tde.net 5 60 511781 20080301231636
+82.99.30.22 2 2 12587 20080310093254
+server.irwebhost.com 6 6 31519 20080319230731
+82.99.30.69 1 1 3595 20080307221809
+www.example.com 2 2 0 20080301213851
+chicago1.securityspace.com 5 5 26847 20080318023340
+84.121.9.230.dyn.user.ono.com 2 23 121462 20080307200525
+84.120.50.38.dyn.user.ono.com 4 59 231088 20080312110654
+150.114.219.87.dynamic.jazztel.es 6 59 202187 20080310130035
+bridge.softex.cz 6 6 31519 20080318191641
+www2.clickis.net 6 6 31519 20080315134322
+d83-176-154-218.cust.tele2.de 2 38 418503 20080328215215
+lk.84.20.237.205.dc.cable.static.lj-kabel.net 2 2 10247 20080310162237
+88.red-88-2-198.staticip.rima-tde.net 3 36 149727 20080309182439
+115.red-88-7-205.staticip.rima-tde.net 2 23 121462 20080311180920
+hestia.produhost.net 6 6 31519 20080303161356
+87.117.208.105 1 1 6652 20080309080333
+84.124.161.246.dyn.user.ono.com 1 20 97879 20080312030357
+82.99.30.68 1 1 4013 20080302221341
+84.78.178.120 2 23 121880 20080325182355
+server3.serverc1.com 6 6 31519 20080327115502
+xb123.com 6 6 31519 20080316052326
+93.red-88-11-78.dynamicip.rima-tde.net 1 20 97879 20080309022045
+83.175.244.142 5 65 916951 20080321132842
+46.18.221.87.dynamic.jazztel.es 2 23 121462 20080317101015
+gik218.internetdsl.tpnet.pl 6 6 31519 20080315224948
+static-213-139-6-89.ipcom.comunitel.net 2 23 121462 20080311190026
+131.red-88-22-121.staticip.rima-tde.net 2 23 121880 20080321234304
+84.124.150.140.dyn.user.ono.com 2 42 1108460 20080319111834
+84.121.169.197.dyn.user.ono.com 5 75 2162202 20080316211145
+147.red-213-96-101.staticip.rima-tde.net 1 1 6652 20080305101407
+112.130.14.62.dynamic.jazztel.es 4 70 1389813 20080309220445
+55.red-80-38-16.staticip.rima-tde.net 6 60 350352 20080314093559
+92.f5.344a.static.theplanet.com 1 1 6652 20080312232848
+147.84.40.100 3 9 18974 20080326133350
+smoke.securenet-server.net 6 6 31519 20080304023151
+plesk.tider.dk 6 6 31519 20080327190859
+vps.scdweb.com 6 6 31519 20080320081902
+88.255.78.186 6 6 31519 20080318232821
+freedom.myhostdns.com 6 6 31519 20080319122945
+175.201.220.87.dynamic.jazztel.es 6 167 222601 20080303204000
+www.varsys.biz 6 6 31519 20080304172107
+82.99.30.62 1 1 6652 20080310014929
+happy.guernsey.net 6 6 31519 20080303205814
+702-c550-1.com 6 6 31519 20080305015420
+69.36.158.38 6 6 31519 20080309093628
+213.0.30.202 2 23 121462 20080325135033
+061238247202.ctinets.com 6 6 31519 20080328041119
+84.121.155.224.dyn.user.ono.com 2 40 97879 20080327223545
+112.red-83-34-27.dynamicip.rima-tde.net 2 52 522138 20080319170937
+106194-web2.neteconomist.com 6 6 31519 20080315152027
+229.red-217-126-215.staticip.rima-tde.net 3 43 121462 20080318172455
+82.99.30.29 1 1 3595 20080310092259
+atwork-146.r-212.178.97.atwork.nl 2 23 121462 20080331130011
+47.red-83-61-172.dynamicip.rima-tde.net 2 38 354889 20080305181933
+ec2-67-202-41-198.compute-1.amazonaws.com 1 1 6652 20080305070532
+224.red-88-1-196.dynamicip.rima-tde.net 2 51 276594 20080303152220
+ip-43-81.tvnetwork.hu 6 6 31519 20080319141338
+213.23.103.222 2 2 10247 20080310220929
+84.121.168.167.dyn.user.ono.com 2 35 121462 20080313185640
+64.79.219.54 2 2 0 20080316093958
+server.alphashare.net 6 6 31519 20080316113105
+220.232.149.22 6 6 31519 20080311191753
+196.red-83-53-85.dynamicip.rima-tde.net 2 23 121462 20080321212050
+82.99.30.61 1 1 4013 20080307222528
+147.84.236.55 0 15 106501 
+189.red-83-55-125.dynamicip.rima-tde.net 3 50 373678 20080313211536
+fe37.hc.ru 6 6 31519 20080303095649
+57.red-81-34-202.dynamicip.rima-tde.net 5 58 198174 20080324171129
+82.99.30.52 1 1 5254 20080311172856
+38.104.58.118 6 6 31519 20080324211637
+claudia.hosting-friends.de 6 6 31519 20080316061201
+sd62.sivit.org 6 6 31519 20080303191213
+137.129.217.87.dynamic.jazztel.es 1 20 97879 20080307140323
+chello089077007085.chello.pl 6 6 31519 20080310095557
+143.242.102-84.rev.gaoland.net 6 6 31519 20080313141846
+38.105.83.13 6 6 31519 20080310210222
+82.99.30.60 1 1 4013 20080310093834
+82.99.30.72 1 1 6652 20080302002744
+84.121.177.220.dyn.user.ono.com 3 36 149727 20080307072509
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20080301 7 62 511781 2
+20080302 10 113 2069965 3
+20080303 44 401 928870 9
+20080304 15 53 420450 3
+20080305 10 46 399712 4
+20080307 9 82 383328 6
+20080309 15 133 1675590 5
+20080310 30 104 437459 11
+20080311 11 53 279697 4
+20080312 6 80 335619 3
+20080313 11 104 606824 3
+20080314 6 60 350352 1
+20080315 24 24 126076 4
+20080316 25 95 2256759 5
+20080317 5 26 121462 2
+20080318 20 60 211347 5
+20080319 22 112 1725155 5
+20080320 12 12 63038 2
+20080321 9 111 1160293 3
+20080323 6 6 31519 1
+20080324 11 64 229693 2
+20080325 4 46 243342 2
+20080326 33 423 4118709 6
+20080327 21 151 2792058 4
+20080328 8 44 450022 2
+20080329 13 94 731175 3
+20080331 38 797 7037928 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 2
+2mn-5mn 9
+0s-30s 80
+15mn-30mn 1
+30s-2mn 13
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 124 718416 98 19
+/plantilla_construccion.htm 76 258840 2 26
+/galeria.htm 72 397645 1 11
+/galeria2.htm 55 315640 1 3
+/galeria3.htm 50 257446 1 34
+/contacto.htm 48 192624 3 13
+END_SIDER

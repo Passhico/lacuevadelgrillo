@@ -1,0 +1,389 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200711 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2531                
+POS_VISITOR 7340                
+POS_DAY 11054               
+POS_DOMAIN 3186                
+POS_LOGIN 3479                
+POS_ROBOT 3634                
+POS_WORMS 4247                
+POS_EMAILSENDER 4378                
+POS_EMAILRECEIVER 4521                
+POS_SESSION 11727               
+POS_SIDER 11916               
+POS_FILETYPES 4656                
+POS_OS 4783                
+POS_BROWSER 4934                
+POS_SCREENSIZE 5141                
+POS_UNKNOWNREFERER 5215                
+POS_UNKNOWNREFERERBROWSER 5331                
+POS_ORIGIN 5442                
+POS_SEREFERRALS 5580                
+POS_PAGEREFS 5724                
+POS_SEARCHWORDS 6610                
+POS_KEYWORDS 6762                
+POS_MISC 2194                
+POS_ERRORS 6821                
+POS_CLUSTER 3335                
+POS_SIDER_404 6925                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20071201005244 109 26464 40563956067
+FirstTime 0
+LastTime 20071130194128
+LastUpdate 20071201005455 109 0 108 0 0
+TotalVisits 72                  
+TotalUnique 68                  
+MonthHostsKnown 53                  
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 31 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 24 361 830652 19 19 32569
+1 17 341 191928 3 3 205
+2 3 3 615 4 4 205
+3 0 0 0 2 2 205
+4 0 0 0 2 2 0
+5 1 1 205 5 5 3595
+6 0 0 0 8 11 6275
+7 0 0 0 4 4 13304
+8 2 2 410 6 6 205
+9 11 124 3030591 10 10 10665
+10 12 108 1336671 2 2 4013
+11 7 7 820 4 4 0
+12 11 98 422806 3 3 0
+13 20 177 1597303 4 5 13405
+14 7 61 272017 4 6 205
+15 7 49 247347 8 8 27052
+16 3 43 121462 3 3 205
+17 4 25 121872 8 8 12722
+18 4 4 205 7 7 205
+19 9 135 1060121 8 8 10665
+20 19 151 1223039 2 2 205
+21 9 30 153186 4 4 0
+22 10 58 372175 3 3 0
+23 0 0 0 13 13 25719
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+com 77 668 6491376
+net 56 650 3197887
+ip 33 391 960406
+es 13 68 333551
+be 1 1 205
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+slurp 16 46870 20071128002208 0
+jeeves 8 33875 20071130230901 0
+speedy 6 26470 20071129191153 0
+spider 2 0 20071120142352 0
+googlebot 2 6275 20071130062607 0
+mj12bot 2 205 20071106080006 0
+exabot 1 205 20071109201401 0
+noxtrumbot 1 205 20071105145829 0
+psbot 1 6652 20071121195732 0
+steeler 1 205 20071111065457 0
+msnbot 1 205 20071116162537 0
+yahoo\-mmcrawler 1 0 20071130061330 0
+msnbot\-media 1 205 20071108180923 0
+gigabot 1 205 20071104025409 0
+nutch 1 6652 20071128132335 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 105 207576 0 0
+jpg 579 8876877 0 0
+htm 75 324168 0 0
+gif 1019 1574804 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winlong 1
+winxp 1704
+win2000 5
+linuxubuntu 1
+linuxfedora 2
+linux 1
+macosx 53
+win2003 4
+linuxdebian 1
+Unknown 6
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+msie6.0 724
+firefox1.0.7 1
+mozilla 1
+firefox1.0 1
+firefox2.0.0.3 1
+firefox2.0.0.9 93
+msie7.0 873
+opera 1
+firefox1.5.0.4 1
+firefox2.0 23
+Unknown 6
+safari 53
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+panscient.com 20071119215604
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+panscient.com 20071119215604
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 40 40
+From1 0 0
+From2 0 0
+From3 69 69
+From4 71 1669
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://www.ctv.es/USERS/agd/sierraespuna/pag/servicios/casas/casas_ala.htm 31 31
+http://www.carm.es/ctyc/murciaturistica/Portal/IYA.comun_alojamientos.detalle 14 14
+http://www.noratur.com/tierradentro/enlaces.php 5 5
+http://www.sitidi.net 5 5
+http://www.rurapolis.com/index.php 3 3
+http://www.carm.es/ctyc/murciaturistica/Portal/iya.alojamientos_turisticos.detalle 2 2
+http://www.spainkiters.com/phpBB2/viewtopic.php 2 2
+http://www.murciaturistica.es/PORTAL/ptm.alojamientos_turisticos.detalle 2 2
+http://sierraespuna.com/comun.asp 1 1
+http://www.gennio.com/tags/la+cueva+del+grillo/ultimos 1 1
+http://www.sierraespuna.com/comun.asp 1 1
+http://www.meryleon.es/Directorio/enlaces.asp 1 1
+http://www.spainkiters.com/phpBB2/profile.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 6 33395
+500 9 0
+404 82 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 5
+/galeria.htm 2 -
+/plantilla_construccion.htm 2 -
+/robots.txt 73 -
+/images/fotos.jpg 2 -
+/contacto.htm 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 69
+165.red-80-34-98.staticip.rima-tde.net 17 341 191928 20071117012039
+88.148.60.153 13 350 829832 20071127000320
+50.red-80-58-205.staticip.rima-tde.net 10 145 1606695 20071122131331
+84.124.163.228.dyn.user.ono.com 8 121 3029976 20071119092712
+panscient_data_services.demarc.cogentco.com 6 6 31519 20071119215604
+84.121.111.201.dyn.user.ono.com 6 99 913784 20071130194128
+84.121.76.247.dyn.user.ono.com 6 62 597441 20071118202800
+84.120.177.5.dyn.user.ono.com 6 6 205 20071104000135
+84.124.13.252.static.user.ono.com 5 61 207768 20071123133335
+84.121.82.107.dyn.user.ono.com 5 58 198174 20071119125830
+87.pool85-56-129.dynamic.orange.es 3 37 206846 20071118104617
+92.f5.344a.static.theplanet.com 1 1 205 20071108201555
+84.121.135.83.dyn.user.ono.com 3 36 150145 20071127141556
+84.120.136.37.dyn.user.ono.com 1 1 205 20071116051301
+84.121.151.219.dyn.user.ono.com 1 1 205 20071111205650
+227.red-88-0-155.dynamicip.rima-tde.net 1 1 205 20071104195026
+84.red-88-3-53.dynamicip.rima-tde.net 3 3 205 20071108130758
+84.121.75.167.dyn.user.ono.com 1 1 205 20071115105216
+211.155.235.99 1 1 205 20071109085631
+145.red-81-39-45.dynamicip.rima-tde.net 1 1 205 20071115134613
+84.126.11.165.dyn.user.ono.com 1 1 205 20071104114451
+cache-1.um.es 1 1 205 20071105103748
+din-169-93-145-212.ipcom.comunitel.net 1 1 205 20071110173910
+100.red-83-41-119.dynamicip.rima-tde.net 1 1 205 20071111223930
+141.red-88-5-63.staticip.rima-tde.net 1 1 205 20071105181549
+sczxserv.com 3 3 0 20071103122119
+84.121.166.149.dyn.user.ono.com 2 23 121462 20071129200025
+195.76.213.82 2 2 205 20071115111720
+umh-143-9.umh.es 2 2 205 20071112200226
+164.150-246-81.adsl-dyn.isp.belgacom.be 1 1 205 20071114224452
+84.120.4.69.dyn.user.ono.com 1 1 205 20071115204756
+static-120-201-6-89.ipcom.comunitel.net 2 23 121462 20071120172405
+110.red-83-57-8.dynamicip.rima-tde.net 1 1 205 20071112225725
+216.145.16.235 1 1 205 20071104205228
+umh-143-12.umh.es 1 1 205 20071112154947
+84.121.93.197.dyn.user.ono.com 2 36 381444 20071117201738
+mercurio.mju.es 3 24 125475 20071128150107
+82.99.30.48 1 1 205 20071104082933
+82.99.30.73 1 1 205 20071102090632
+pcte01.dep.upct.es 2 2 410 20071107141349
+69.36.158.11 1 1 205 20071105000340
+209.red-83-40-173.dynamicip.rima-tde.net 2 2 205 20071106002809
+www.example.com 2 2 0 20071124225939
+215.red-88-14-59.dynamicip.rima-tde.net 2 35 146132 20071128195721
+84.124.165.28.dyn.user.ono.com 2 23 121462 20071121143603
+84.121.95.217.dyn.user.ono.com 1 1 205 20071109113414
+cm130053.red83-165.mundo-r.com 2 23 121462 20071119155922
+84.232.73.146 1 1 205 20071115102500
+22.red-213-96-206.staticip.rima-tde.net 3 43 121462 20071126162924
+178.red-88-17-171.staticip.rima-tde.net 1 1 205 20071113171835
+147.84.236.55 0 15 106501 
+84.124.202.8.dyn.user.ono.com 2 23 121462 20071125203935
+28.red-83-44-227.dynamicip.rima-tde.net 1 1 205 20071106025900
+84.121.148.25.dyn.user.ono.com 1 1 205 20071111143551
+128.241.20.166 1 1 6652 20071127130055
+223.red-83-36-247.dynamicip.rima-tde.net 3 3 205 20071106114900
+213.201.46.194.static.user.ono.com 2 2 410 20071115111702
+196.red-81-41-192.staticip.rima-tde.net 2 2 205 20071107135832
+84.121.182.40.dyn.user.ono.com 2 23 121462 20071118215519
+81.red-213-97-83.staticip.rima-tde.net 3 44 1007543 20071119100615
+216.145.16.236 1 1 205 20071104204912
+128.241.20.165 1 1 205 20071107154917
+147.84.200.70 2 8 14961 20071120100805
+proxima.cc.upv.es 1 1 205 20071114095512
+host86-154-197-231.range86-154.btcentralplus.com 5 53 371560 20071120225453
+84.76.149.18 2 2 205 20071104002738
+84.79.77.192 4 4 205 20071111181003
+38.100.41.105 1 1 205 20071110023101
+114.red-88-14-51.dynamicip.rima-tde.net 1 1 205 20071115020702
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20071102 1 1 205 1
+20071103 3 3 0 1
+20071104 14 14 1640 8
+20071105 4 4 820 4
+20071106 8 8 1025 5
+20071107 4 4 615 3
+20071108 4 4 410 2
+20071109 2 2 410 2
+20071110 2 2 410 2
+20071111 6 6 615 4
+20071112 4 4 615 3
+20071113 1 1 205 1
+20071114 2 2 410 2
+20071115 7 7 1230 7
+20071116 1 1 205 1
+20071117 19 377 573372 2
+20071118 11 122 925749 3
+20071119 24 252 4388674 5
+20071120 9 99 614484 3
+20071121 2 23 121462 1
+20071122 10 145 1606695 1
+20071123 5 61 207768 1
+20071124 2 2 0 1
+20071125 2 23 121462 1
+20071126 3 43 121462 1
+20071127 17 387 986629 3
+20071128 5 59 271607 2
+20071129 2 23 121462 1
+20071130 6 99 913784 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+0s-30s 52
+30s-2mn 14
+2mn-5mn 4
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 105 207576 72 49
+/galeria.htm 24 106830 0 5
+/plantilla_construccion.htm 23 68305 0 10
+/galeria2.htm 13 78910 0 1
+/galeria3.htm 8 42032 0 3
+/contacto.htm 7 28091 0 4
+END_SIDER
